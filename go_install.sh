@@ -5,7 +5,8 @@
 export  CGO_ENABLED=0
 
 
-declare -a versions=(  '1.7.6' '1.8.3' )
+declare -a versions=( '1.7.6' '1.8.3' )
+
 for version in "${versions[@]}"
   do
      echo "================= Install Go $version==================="
